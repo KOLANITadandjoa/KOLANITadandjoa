@@ -1,55 +1,66 @@
-output: github_document
+# 👨‍🏫 Tadandjoa KOLANI  
 
-👨‍🏫 Tadandjoa KOLANI
+## 🎓 PhD Candidate in Health Econometrics  
 
-🎓 Doctorant en Économétrie de la santé
+---
 
-📌 À propos de moi
+## 📌 About Me  
+I am currently a PhD candidate in **Health Econometrics** at the **University of Poitiers**.  
+My research focuses on **Causal Inference** and **Identification Issues** in **Structural and Microeconometrics**, with applications in **Health and Population Economics**.  
 
-Je suis actuellement doctorant en économétrie de la santé à l'Université de Poitiers.
-Mes travaux de recherche portent sur l'Inference Causale et les problèmes d'identification en économétrie structurelle et en microéconométrie. Ces travaux sont appliqués en économie de la santé et de la population.
+---
 
-📊 Thèse actuelle
+## 📊 Current Thesis  
+**Essays on the Health of Vulnerable Populations**:  
+- Case studies on **elderly populations in Europe** and **children in developing countries**.  
 
-Essays sur la santé des personnes vulnérables : cas des personnes âgées en Europe et des enfants dans les pays en voie de développement.
+---
 
-🔍 Domaines d'expertise
+## 🔍 Areas of Expertise  
+- **Causal Inference**  
+- **Robust Inference**  
+- **Structural and Microeconometrics**  
+- **Health and Population Economics**  
 
-Inference causale
+---
 
-Robust Inference
+## 🎯 Research Objective  
+Applying advanced econometric methods to solve complex problems in **health** and **population economics**.  
 
-Économétrie structurelle et microéconométrie
+---
 
-Économie de la santé et de la population
+## 📚 Working Papers  
+- **Formal and Informal Care: Substitutes or Complements?**  
+  *(with Liliane Bonnal and Pascal Favard)* – Exploring formal and informal care relationships using **Simultaneous Latent Factor Models (SLFM)**, **Control Function Models (CFM)**, and **Asymptotic Least Squares (ALS)** estimators.  
 
-🎯 Objectif
+- **Maternal Health Behaviors, Sexual and Reproductive Experiences, and Child Vaccination Coverage: Causal or Not?**  
+  Investigating causal relationships through **Control Function** and **Copula-Based Two-Stage Approaches**.  
 
-Appliquer des méthodes économétriques avancées pour résoudre des problèmes complexes en économie de la santé et de la population.
+---
 
-📚 Working Papers
+## 🛠️ Technical Skills  
+- **Languages**: R, Python, Stata, SAS, Excel  
+- **Statistics & Econometrics**: Data Analysis, Statistical Modeling, Causal Inference  
+- **Languages**: French, English  
 
-Formal and Informal Care, Substitutes they are (avec Bonnal Liliane et Favard Pascal)
+---
 
-Maternal Health Behaviors, Sexual and Reproductive Experiences and their Full Vaccination: Causal or not? A control function and Copula two-stage approach?
+## 💼 Professional Experience  
 
-🛠️ Compétences techniques
+*(Details available upon request.)*  
 
-Langages : R, Python, Stata, SAS et Excel
+---
 
-Statistique et Économétrie : Analyse de données, Modélisation statistique et inférence causale
+## 🏆 Awards  
 
-Langues : Français et Anglais
+*(Details available upon request.)*  
 
-💼 Expérience professionnelle
+---
 
-🏆 Awards
+## 📩 Contact Me  
+- 📧 **Email**: your.email@example.com  
+- 👔 **LinkedIn**: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)  
 
-📩 Contactez-moi
+---
 
-📧 Email : votre.email@example.com
-
-👔 LinkedIn : linkedin.com/in/votreprofil
-
-N'hésitez pas à explorer mes projets et à me contacter pour toute collaboration ou question ! 🚀
-
+Feel free to explore my projects and reach out for collaborations or inquiries! 🚀
