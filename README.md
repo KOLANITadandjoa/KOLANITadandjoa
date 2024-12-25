@@ -1,4 +1,6 @@
-👨‍🏫 [Tadandjoa KOLANI]
+output: github_document
+
+👨‍🏫 Tadandjoa KOLANI
 
 🎓 Doctorant en Économétrie de la santé
 
@@ -7,11 +9,23 @@
 Je suis actuellement doctorant en économétrie de la santé à l'Université de Poitiers.
 Mes travaux de recherche portent sur l'Inference Causale et les problèmes d'identification en économétrie structurelle et en microéconométrie. Ces travaux sont appliqués en économie de la santé et de la population.
 
-📊 Thèse actuelle : Essays sur la santé des personnes vulnérables : cas des personnes âgées en Europe et des enfants dans les pays en voie de développement.
+📊 Thèse actuelle
 
-🔍 Domaines d'expertise : Inference causale, Robust Inference, Économétrie structurelle et microéconométrie, Économie de la santé et de la population.
+Essays sur la santé des personnes vulnérables : cas des personnes âgées en Europe et des enfants dans les pays en voie de développement.
 
-🎯 Objectif : Appliquer des méthodes économétriques avancées pour résoudre des problèmes complexes en économie de la santé et de la population.
+🔍 Domaines d'expertise
+
+Inference causale
+
+Robust Inference
+
+Économétrie structurelle et microéconométrie
+
+Économie de la santé et de la population
+
+🎯 Objectif
+
+Appliquer des méthodes économétriques avancées pour résoudre des problèmes complexes en économie de la santé et de la population.
 
 📚 Working Papers
 
@@ -30,8 +44,6 @@ Langues : Français et Anglais
 💼 Expérience professionnelle
 
 🏆 Awards
-
-
 
 📩 Contactez-moi
 
