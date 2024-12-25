@@ -23,14 +23,17 @@
       box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
     }
     h1 {
-      font-size: 3em;
+      font-size: 3.5em;
       margin-bottom: 10px;
       font-weight: bold;
+      letter-spacing: 1px;
     }
     h2 {
       font-size: 1.8em;
       color: #f9c74f; /* Golden accent */
       font-weight: normal;
+      margin-top: 10px;
+      letter-spacing: 0.5px;
     }
     p {
       font-size: 1.2em;
@@ -44,11 +47,12 @@
       padding: 12px 25px;
       border-radius: 5px;
       font-weight: bold;
-      transition: background-color 0.3s;
+      transition: background-color 0.3s, transform 0.3s;
     }
     a:hover {
       background-color: #f1f1f1;
       color: #333;
+      transform: scale(1.1);
     }
     nav {
       background-color: rgba(60, 157, 155, 0.9);
@@ -76,12 +80,20 @@
       color: #333;
       box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
       border-radius: 8px;
-      overflow-y: auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+    }
+    .profile-photo-container {
+      flex: 1 1 300px;
+      text-align: center;
     }
     img.profile-photo {
       border-radius: 50%;
-      width: 200px;
-      height: 200px;
+      width: 250px;
+      height: 250px;
       margin-top: 20px;
       border: 5px solid #f9c74f;
       box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
@@ -89,6 +101,12 @@
     }
     img.profile-photo:hover {
       transform: scale(1.1);
+    }
+    .bio-container {
+      flex: 2 1 600px;
+      text-align: left;
+      font-size: 1.2em;
+      margin-top: 20px;
     }
     footer {
       background-color: rgba(45, 62, 80, 0.9);
@@ -105,7 +123,7 @@
 
   <header>
     <h1>Welcome to My Professional Web Profile</h1>
-    <h2>Exploring the World of Health Econometrics</h2>
+    <h2>Exploring the World of Health Econometrics, I hope you like Causal Inference</h2>
   </header>
 
   <nav>
@@ -116,12 +134,15 @@
   </nav>
 
   <main>
-    <!-- Profile Photo with Hover Effect -->
-    <img src="https://raw.githubusercontent.com/KOLANITadandjoa/KOLANITadandjoa/main/IMG_20240704_093232_713_HDR~2.jpg" alt="Tadandjoa Kolani" class="profile-photo">
-    
-    <p>Hello! I'm Tadandjoa Kolani, a passionate PhD student in Health Econometrics at the University of Poitiers. My research focuses on structural modeling, microeconometrics, causal inference and robust inference in the fields of health and population economics.</p>
-    <p>I am always open to exciting collaborations and new opportunities. If you are passionate about the same topics or have ideas you'd like to explore together, feel free to reach out. Let's connect and make great things happen!</p>
-    <p><a href="contact.html">Contact Me</a></p>
+    <!-- Profile Photo and Bio -->
+    <div class="profile-photo-container">
+      <img src="https://raw.githubusercontent.com/KOLANITadandjoa/KOLANITadandjoa/main/IMG_20240704_093232_713_HDR~2.jpg" alt="Tadandjoa Kolani" class="profile-photo">
+    </div>
+    <div class="bio-container">
+      <p>Hello! I'm Tadandjoa Kolani, a passionate PhD student in Health Econometrics at the University of Poitiers. My research focuses on structural modeling, microeconometrics, causal inference, and robust inference in the fields of health and population economics.</p>
+      <p>I am always open to exciting collaborations and new opportunities. If you are passionate about the same topics or have ideas you'd like to explore together, feel free to reach out. Let's connect and make great things happen!</p>
+      <p><a href="contact.html">Contact Me</a></p>
+    </div>
   </main>
 
   <footer>
