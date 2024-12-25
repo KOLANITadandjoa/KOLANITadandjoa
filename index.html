@@ -55,7 +55,18 @@
       height: 150px;
       margin-top: 20px;
     }
+    .econometrics-figure {
+      width: 80%;
+      margin-top: 30px;
+      border-radius: 8px;
+    }
   </style>
+
+  <!-- MathJax for rendering LaTeX equations -->
+  <script type="text/javascript" async 
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+
 </head>
 <body>
 
@@ -65,11 +76,23 @@
   </header>
 
   <main>
-    <!-- Add your profile photo here -->
-    <img src="https://github.com/KOLANITadandjoa/KOLANITadandjoa/blob/main/IMG_20240704_093232_713_HDR~2.jpg" alt="Tadandjoa Kolani" class="profile-photo">
+    <!-- Profile Photo -->
+    <img src="https://raw.githubusercontent.com/KOLANITadandjoa/KOLANITadandjoa/main/IMG_20240704_093232_713_HDR~2.jpg" alt="Tadandjoa Kolani" class="profile-photo">
     
-    <p>Hello! I'm Tadandjoa Kolani, a passionate PhD student in Health Econometrics at the University of Poitiers. My research focuses on structural modeling, microeconometrics, causal inference and robust inference in the fields of health and population economics.</p>
+    <p>Hello! I'm Tadandjoa Kolani, a passionate PhD student in Health Econometrics at the University of Poitiers. My research focuses on structural modeling, microeconometrics, causal inference, and robust inference in the fields of health and population economics.</p>
     <p>Take a deep dive into my CV (lien) and work, research domain, and research activities <a href="https://github.com/KOLANITadandjoa" target="_blank">here</a>.</p>
+
+    <!-- Example of an econometrics diagram -->
+    <img src="https://raw.githubusercontent.com/KOLANITadandjoa/KOLANITadandjoa/main/econometrics-diagram.png" alt="Structural Econometrics Model" class="econometrics-figure">
+    
+    <!-- LaTeX Equation Example -->
+    <p>One of the econometric models I work with is:</p>
+    <p id="math"></p>
+    <script type="text/javascript">
+      MathJax.Hub.Queue(["Typeset", MathJax.Hub, "math"]);
+      document.getElementById('math').innerHTML = '\\[ Y = \\beta_0 + \\beta_1 X + \\epsilon \\]';
+    </script>
+
   </main>
 
   <footer>
