@@ -17,7 +17,7 @@ Mes travaux de recherche portent sur l'Inference Causale et les problèmes d'ide
 
 Formal and Informal Care, Substitutes they are (avec Bonnal Liliane et Favard Pascal)
 
-Maternal Health Behaviors, Sexual and Reproductive Experiences and their Full Vaccination: Causal or not? A control function and Copula two-stage approach?
+Maternal Health Behaviors, Sexual and Reproductive Experiences and their Child Full Vaccination: Causal or not? A control function and Copula two-stage approach?
 
 🛠️ Compétences techniques
 
