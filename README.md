@@ -1,58 +1,43 @@
 👨‍🏫 [Tadandjoa KOLANI]
 
-🎓 Doctorant en Économie | Spécialiste en Économétrie | Chercheur Quantitatif
+🎓 Doctorant en Économétrie de la santé
 
 📌 À propos de moi
 
-Je suis un doctorant passionné en économie avec un intérêt particulier pour l'économétrie appliquée et les modèles quantitatifs. Mes travaux de recherche portent sur l'analyse des politiques économiques, les prévisions macroéconomiques et l'évaluation d'impact.
+Je suis actuellement doctorant en économétrie de la santé à l'Université de Poitiers.
+Mes travaux de recherche portent sur l'Inference Causale et les problèmes d'identification en économétrie structurelle et en microéconométrie. Ces travaux sont appliqués en économie de la santé et de la population.
 
-📊 Thèse actuelle : Modélisation des inégalités économiques et des effets des politiques fiscales.
+📊 Thèse actuelle : Essays sur la santé des personnes vulnérables : cas des personnes âgées en Europe et des enfants dans les pays en voie de développement.
 
-🔍 Domaines d'expertise : Économétrie, Analyse des données, Machine Learning appliqué à l'économie.
+🔍 Domaines d'expertise : Inference causale, Robust Inference, Économétrie structurelle et microéconométrie, Économie de la santé et de la population.
 
-🎯 Objectif : Utiliser des approches quantitatives pour résoudre des problèmes complexes d'économie appliquée.
+🎯 Objectif : Appliquer des méthodes économétriques avancées pour résoudre des problèmes complexes en économie de la santé et de la population.
 
-📚 Publications & Travaux
+📚 Working Papers
 
-Titre de la publication 1 - Nom du journal ou conférence, Année.
+Formal and Informal Care, Substitutes they are (avec Bonnal Liliane et Favard Pascal)
 
-Titre de la publication 2 - Nom du journal ou conférence, Année.
-
-Mes autres travaux - Consultez mon Google Scholar.
+*Maternal Health Behaviors, Sexual and Reproductive Experiences and their Full Vaccination: Causal or not? A control function and Copula two-stage approach?
 
 🛠️ Compétences techniques
 
-Langages : R, Python, Stata, MATLAB
+Langages : R, Python, Stata, SAS et Excel
 
-Statistiques et Économétrie : Séries temporelles, Régressions linéaires et non linéaires, Panel data
+Statistique et Économétrie : Analyse de données, Modélisation statistique et inférence causale
 
-Base de données : SQL, PostgreSQL
-
-Visualisation : ggplot2, Matplotlib, Tableau
-
-Outils de gestion de version : Git, GitHub
+Langues : Français et Anglais
 
 💼 Expérience professionnelle
 
-Enseignant-chercheur - Université XYZ (2022 - présent)
+🏆 Awards
 
-Encadrement de projets de recherche et enseignement d'économétrie avancée.
 
-Consultant en analyse de données - Cabinet ABC (2019 - 2022)
-
-Analyse quantitative pour des projets de développement économique.
 
 📩 Contactez-moi
 
 📧 Email : votre.email@example.com
 
-🌐 Site web : www.votresite.com
-
-🐦 Twitter : @votrehandle
-
 👔 LinkedIn : linkedin.com/in/votreprofil
-
-📊 GitHub : github.com/votreutilisateur
 
 N'hésitez pas à explorer mes projets et à me contacter pour toute collaboration ou question ! 🚀
 
