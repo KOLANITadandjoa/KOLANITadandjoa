@@ -25,7 +25,7 @@ My research focuses on **Causal Inference** and **Identification Issues** in **S
 ---
 
 ## 🎯 Research Objective  
-Applying advanced econometric methods to solve complex problems in **health** and **population economics**.  
+Application of advanced statistical and econometric methods to solve complex problems in **health** and **population economics**. 
 
 ---
 
@@ -45,21 +45,9 @@ Applying advanced econometric methods to solve complex problems in **health** an
 
 ---
 
-## 💼 Professional Experience  
-
-*(Details available upon request.)*  
-
----
-
-## 🏆 Awards  
-
-*(Details available upon request.)*  
-
----
-
 ## 📩 Contact Me  
-- 📧 **Email**: your.email@example.com  
-- 👔 **LinkedIn**: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)  
+- 📧 **Email**: tadandjoa.kolani@univ-poitiers.fr  
+- 👔 **LinkedIn**: https://www.linkedin.com/in/tadandjoa-kolani/ 
 
 ---
 
