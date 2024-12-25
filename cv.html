@@ -30,6 +30,7 @@
       font-size: 2em;
       color: #3c9d9b;
       margin-bottom: 20px;
+      font-weight: 600;
     }
     p {
       font-size: 1.2em;
@@ -43,6 +44,7 @@
       padding: 10px 20px;
       border-radius: 5px;
       font-weight: bold;
+      transition: background-color 0.3s ease;
     }
     a:hover {
       background-color: #2a7271;
@@ -70,13 +72,11 @@
       background-color: #fff;
       box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
       border-radius: 8px;
-      text-align: center; /* Center text in the main section */
     }
     ul {
       list-style-type: none;
       padding: 0;
       font-size: 1.1em;
-      text-align: center; /* Center the list items */
     }
     ul li {
       margin: 12px 0;
@@ -89,6 +89,18 @@
       position: absolute;
       left: 0;
       top: 0;
+    }
+    .university, .supervisor {
+      font-style: italic;
+      color: #2a7271;
+    }
+    .bold-text {
+      font-weight: bold;
+    }
+    .highlight {
+      background-color: #f0f8f0;
+      padding: 10px;
+      border-radius: 5px;
     }
     footer {
       background-color: #2d3e50;
@@ -118,19 +130,19 @@
   <main>
     <h2>Academic Background</h2>
     <ul>
-      <li> BAC II Series C, Mathematics and Physical Sciences option (2015), Lomé - Togo</li>
-      <li> Master’s in Applied Economics (2020 – 2021), University of Sorbonne Paris Nord, France</li>
-      <li> Master’s in Applied Econometrics (2021-2023), University of Lille, France</li>
-      <li> Master’s in Statistics and Econometrics (2023 - 2024), Toulouse School of Economics, France (TSE)</li>
-      <li> PhD in Health Econometrics (Ongoing, October 2024), University of Poitiers, France</li>
+      <li>✓ BAC II Series C, <span class="university">Mathematics and Physical Sciences option (2015)</span>, <span class="highlight">Lomé - Togo</span></li>
+      <li>✓ Master’s in Applied Economics (2020 – 2021), <span class="university">University of Sorbonne Paris Nord</span>, <span class="highlight">France</span></li>
+      <li>✓ Master’s in Applied Econometrics (2021-2023), <span class="university">University of Lille</span>, <span class="highlight">France</span></li>
+      <li>✓ Master’s in Statistics and Econometrics (2023 - 2024), <span class="university">Toulouse School of Economics (TSE)</span>, <span class="highlight">France</span></li>
+      <li>✓ PhD in Health Econometrics (Ongoing, October 2024), <span class="university">University of Poitiers</span>, <span class="highlight">France</span></li>
     </ul>
 
     <h2>Research Internships</h2>
     <ul>
-      <li><strong>Research Thesis</strong>, University of Lille (April to July 2022): Statistical analysis of socio-economic and geographical determinants of voluntary non-take-up of HIV/AIDS testing in sub-Saharan Africa, under Yves ARRIGHI.</li>
-      <li><strong>Research Internship</strong>, LEM-CNRS, University of Poitiers (February to July 2023): A study on prevention policies and vaccination behaviors in developing countries, under Clémentine GARROUSTE and Yves ARRIGHI.</li>
-      <li><strong>Research Internship</strong>, Toulouse School of Economics and Airbus (2023): Estimation of short-term and long-term price elasticities of fuel for airlines and the world: What about heterogeneity?, under Michel Simioni and Stéphane MALKAWI.</li>
-      <li><strong>Research Internship</strong>, University of Poitiers and Toulouse School of Economics (April to September 2024): Formal care, Informal Care and Mental health of the Elderly in Europe: A structural causal approach, under Liliane Bonnal.</li>
+      <li><strong>Research Thesis</strong>, <span class="university">University of Lille</span> (April to July 2022): Statistical analysis of socio-economic and geographical determinants of voluntary non-take-up of HIV/AIDS testing in sub-Saharan Africa, under <span class="supervisor">Yves ARRIGHI</span>.</li>
+      <li><strong>Research Internship</strong>, <span class="university">LEM-CNRS, University of Poitiers</span> (February to July 2023): A study on prevention policies and vaccination behaviors in developing countries, under <span class="supervisor">Clémentine GARROUSTE</span> and <span class="supervisor">Yves ARRIGHI</span>.</li>
+      <li><strong>Research Internship</strong>, <span class="university">Toulouse School of Economics and Airbus</span> (2023): Estimation of short-term and long-term price elasticities of fuel for airlines and the world: What about heterogeneity?, under <span class="supervisor">Michel Simioni</span> and <span class="supervisor">Stéphane MALKAWI</span>.</li>
+      <li><strong>Research Internship</strong>, <span class="university">University of Poitiers and Toulouse School of Economics</span> (April to September 2024): Formal care, Informal Care and Mental health of the Elderly in Europe: A structural causal approach, under <span class="supervisor">Liliane Bonnal</span>.</li>
     </ul>
   </main>
 
