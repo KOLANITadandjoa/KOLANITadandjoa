@@ -6,7 +6,7 @@
 
 ## 📌 About Me  
 I am currently a PhD candidate in **Health Econometrics** at the **University of Poitiers**.  
-My research focuses on **Causal Inference** and **Identification Issues** in **Structural Econometrics and Microeconometrics**, with applications in **Health and Population Economics**.  
+My research focuses on **Causal Inference**, **Identification Issues** in **Structural Econometrics and Microeconometrics**, with applications in **Health, Population and Development Economics**.  
 
 ---
 
