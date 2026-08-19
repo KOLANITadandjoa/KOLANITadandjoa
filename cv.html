@@ -1,121 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tadandjoa Kolani - CV</title>
-  <meta name="description" content="Curriculum Vitae of Tadandjoa Kolani, PhD Researcher in Health Econometrics.">
+
+  <title>Tadandjoa Kolani | CV</title>
+
+  <meta
+    name="description"
+    content="Curriculum Vitae of Tadandjoa Kolani, PhD Researcher in Health Econometrics at the University of Poitiers."
+  >
+
   <style>
-    /* General Styles */
+
+    /* =====================================================
+       GENERAL
+    ===================================================== */
+
+    * {
+      box-sizing: border-box;
+    }
+
     body {
-      font-family: 'Georgia', serif;
       margin: 0;
       padding: 0;
-      background-color: #fafafa;
-      color: #333;
-      line-height: 1.6;
-      padding-bottom: 50px;
+      background-color: #ffffff;
+      color: #222;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      line-height: 1.65;
     }
-    header {
-      background-color: #2d3e50;
-      color: white;
-      padding: 50px 20px;
-      text-align: center;
-      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    }
-    h1 {
-      font-size: 3em;
-      margin-bottom: 10px;
-      font-weight: bold;
-    }
-    h2 {
-      font-size: 2.2em;
-      color: #2a7271;
-      margin-bottom: 25px;
-      font-weight: 600;
-    }
-    p {
-      font-size: 1.1em;
-      color: #555;
-      margin: 15px 0;
-    }
+
     a {
+      color: #244a73;
       text-decoration: none;
-      color: #ffffff;
-      background-color: #3c9d9b;
-      padding: 10px 20px;
-      border-radius: 5px;
-      font-weight: bold;
-      transition: background-color 0.3s ease;
     }
+
     a:hover {
-      background-color: #2a7271;
+      text-decoration: underline;
     }
-    nav {
-      background-color: #3c9d9b;
-      padding: 15px;
+
+
+    /* =====================================================
+       HEADER
+    ===================================================== */
+
+    header {
+      background-color: #ffffff;
       text-align: center;
+      padding: 55px 20px 35px;
+      border-bottom: 1px solid #d9d9d9;
     }
-    nav a {
-      margin: 10px 20px;
-      color: white;
-      font-size: 1.1em;
-      text-decoration: none;
-      padding: 8px 15px;
+
+    header h1 {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 2.8rem;
+      font-weight: 500;
+      color: #1f3552;
+      letter-spacing: 0.2px;
     }
-    nav a:hover {
-      background-color: #2a7271;
-      border-radius: 5px;
-    }
-    main {
-      max-width: 1200px;
-      margin: 40px auto;
-      padding: 20px;
-      background-color: #fff;
-      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-      border-radius: 8px;
-    }
-    ul {
-      list-style-type: none;
+
+    header p {
+      margin: 10px 0 0;
       padding: 0;
-      font-size: 1.1em;
+      font-size: 1.05rem;
+      color: #555;
     }
-    ul li {
-      margin: 12px 0;
-      padding-left: 20px;
-      position: relative;
-    }
-    ul li::before {
-      content: '✓';
-      color: #3c9d9b;
-      position: absolute;
-      left: 0;
-      top: 0;
-    }
-    .university, .supervisor {
-      font-style: italic;
-      color: #2a7271;
-    }
-    .bold-text {
-      font-weight: bold;
-    }
-    .highlight {
-      background-color: #eaf2f2;
-      padding: 10px;
-      border-radius: 5px;
-      font-weight: bold;
-    }
-    footer {
-      background-color: #2d3e50;
-      color: white;
-      padding: 20px;
+
+
+    /* =====================================================
+       NAVIGATION
+    ===================================================== */
+
+    nav {
       text-align: center;
-      position: relative;
-      bottom: 0;
-      width: 100%;
+      padding: 16px 20px;
+      background-color: #ffffff;
+      border-bottom: 1px solid #eeeeee;
     }
+
+    nav a {
+      display: inline-block;
+      margin: 0 16px;
+      padding: 2px 0;
+      color: #333;
+      font-size: 0.98rem;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: #244a73;
+      text-decoration: none;
+      border-bottom: 1px solid #244a73;
+    }
+
+    nav a.active {
+      color: #244a73;
+      border-bottom: 1px solid #244a73;
+    }
+
+
+    /* =====================================================
+       MAIN
+    ===================================================== */
+
+    main {
+      max-width: 980px;
+      margin: 55px auto 80px;
+      padding: 0 30px;
+    }
+
+    section {
+      margin-bottom: 55px;
+    }
+
+    h2 {
+      margin: 0 0 24px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #d8d8d8;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 1.65rem;
+      font-weight: 500;
+      color: #1f3552;
+    }
+
+
+    /* =====================================================
+       CV ENTRIES
+    ===================================================== */
+
+    .cv-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .cv-entry {
+      margin-bottom: 26px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid #eeeeee;
+    }
+
+    .cv-entry:last-child {
+      border-bottom: none;
+    }
+
+    .degree-title,
+    .position-title {
+      display: block;
+      margin-bottom: 4px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 1.05rem;
+      line-height: 1.45;
+      font-weight: 600;
+      color: #1f3552;
+    }
+
+    .institution {
+      color: #444;
+      font-size: 0.98rem;
+    }
+
+    .date-location {
+      margin-top: 2px;
+      color: #666;
+      font-size: 0.94rem;
+    }
+
+    .description {
+      margin-top: 8px;
+      color: #444;
+      font-size: 0.97rem;
+      line-height: 1.6;
+    }
+
+    .supervisor {
+      color: #555;
+      font-style: italic;
+    }
+
+
+    /* =====================================================
+       FOOTER
+    ===================================================== */
+
+    footer {
+      border-top: 1px solid #dddddd;
+      background-color: #ffffff;
+      text-align: center;
+      padding: 25px 20px 35px;
+      color: #777;
+    }
+
+    footer p {
+      margin: 0;
+      font-size: 0.88rem;
+    }
+
+
+    /* =====================================================
+       RESPONSIVE
+    ===================================================== */
+
+    @media (max-width: 700px) {
+
+      header {
+        padding: 40px 20px 28px;
+      }
+
+      header h1 {
+        font-size: 2.2rem;
+      }
+
+      nav {
+        padding: 13px 10px;
+      }
+
+      nav a {
+        margin: 5px 9px;
+        font-size: 0.92rem;
+      }
+
+      main {
+        margin-top: 38px;
+        padding: 0 22px;
+      }
+
+      h2 {
+        font-size: 1.45rem;
+      }
+
+    }
+
   </style>
 </head>
+
 <body>
 
   <header>
@@ -125,32 +245,190 @@
 
   <nav>
     <a href="index.html">Home</a>
-    <a href="cv.html">CV</a>
+    <a href="cv.html" class="active">CV</a>
     <a href="research.html">Research</a>
     <a href="contact.html">Contact</a>
   </nav>
 
   <main>
-    <h2>Academic Background</h2>
-    <ul>
-      <li> BAC II Series C, Mathematics and Physical Sciences option (2015), Lomé - Togo</li>
-      <li> Master’s in Applied Economics (2020 – 2021), <span class="university">University of Sorbonne Paris Nord</span>, <span class="highlight">France</span></li>
-      <li> Master’s in Applied Econometrics (2021-2023), <span class="university">University of Lille</span>, <span class="highlight">France</span></li>
-      <li> Master’s in Statistics and Econometrics (2023 - 2024), <span class="university">Toulouse School of Economics (TSE)</span>, <span class="highlight">France</span></li>
-      <li> PhD in Health Econometrics (Ongoing, October 2024), <span class="university">University of Poitiers</span>, <span class="highlight">France</span></li>
-    </ul>
 
-    <h2>Research Internships</h2>
-    <ul>
-      <li><strong>Research Thesis</strong>, <span class="university">University of Lille</span> (April to July 2022): Statistical analysis of socio-economic and geographical determinants of voluntary non-take-up of HIV/AIDS testing in sub-Saharan Africa, under <span class="supervisor">Yves ARRIGHI</span>.</li>
-      <li><strong>Research Internship</strong>, <span class="university">LEM-CNRS, University of Lille</span> (February to July 2023): A study on prevention policies and vaccination behaviors in developing countries, under <span class="supervisor">Clémentine GARROUSTE</span> and <span class="supervisor">Yves ARRIGHI</span>.</li>
-      <li><strong>Research Internship</strong>, <span class="university">Toulouse School of Economics and Airbus</span> (2023): Short- and long-term price elasticities of fuel in the airline industry: A heterogeneity analysis approach, under the supervision of <span class="supervisor">Michel Simioni</span> and <span class="supervisor">Stéphane MALKAWI</span>.</li>
-      <li><strong>Research Internship</strong>, <span class="university">University of Poitiers and Toulouse School of Economics</span> (April to September 2024): Formal care, informal care and mental health of the elderly in Europe: A structural causal approach, under <span class="supervisor">Liliane Bonnal</span>.</li>
-    </ul>
+    <!-- Academic Background -->
+
+    <section>
+
+      <h2>Academic Background</h2>
+
+      <ul class="cv-list">
+
+        <li class="cv-entry">
+          <span class="degree-title">
+            PhD in Health Econometrics
+          </span>
+          <div class="institution">
+            University of Poitiers
+          </div>
+          <div class="date-location">
+            Since October 2024 · Poitiers, France
+          </div>
+        </li>
+
+        <li class="cv-entry">
+          <span class="degree-title">
+            Master's in Statistics and Econometrics
+          </span>
+          <div class="institution">
+            Toulouse School of Economics (TSE)
+          </div>
+          <div class="date-location">
+            2023–2024 · Toulouse, France
+          </div>
+        </li>
+
+        <li class="cv-entry">
+          <span class="degree-title">
+            Master's in Applied Econometrics
+          </span>
+          <div class="institution">
+            University of Lille
+          </div>
+          <div class="date-location">
+            2021–2023 · Lille, France
+          </div>
+        </li>
+
+        <li class="cv-entry">
+          <span class="degree-title">
+            Master's in Applied Economics
+          </span>
+          <div class="institution">
+            Université Sorbonne Paris Nord
+          </div>
+          <div class="date-location">
+            2020–2021 · France
+          </div>
+        </li>
+
+        <li class="cv-entry">
+          <span class="degree-title">
+            BAC II, Series C — Mathematics and Physical Sciences
+          </span>
+          <div class="date-location">
+            2015 · Lomé, Togo
+          </div>
+        </li>
+
+      </ul>
+
+    </section>
+
+
+    <!-- Research Internships -->
+
+    <section>
+
+      <h2>Research Internships</h2>
+
+      <ul class="cv-list">
+
+        <li class="cv-entry">
+          <span class="position-title">
+            Research Internship
+          </span>
+
+          <div class="institution">
+            University of Poitiers and Toulouse School of Economics
+          </div>
+
+          <div class="date-location">
+            April–September 2024
+          </div>
+
+          <div class="description">
+            Formal care, informal care, and mental health of the elderly in Europe:
+            a structural causal approach.
+            <span class="supervisor">
+              Supervised by Liliane Bonnal.
+            </span>
+          </div>
+        </li>
+
+
+        <li class="cv-entry">
+          <span class="position-title">
+            Research Internship
+          </span>
+
+          <div class="institution">
+            Toulouse School of Economics and Airbus
+          </div>
+
+          <div class="date-location">
+            2023
+          </div>
+
+          <div class="description">
+            Short- and long-term price elasticities of fuel in the airline industry:
+            a heterogeneity analysis approach.
+            <span class="supervisor">
+              Supervised by Michel Simioni and Stéphane Malkawi.
+            </span>
+          </div>
+        </li>
+
+
+        <li class="cv-entry">
+          <span class="position-title">
+            Research Internship
+          </span>
+
+          <div class="institution">
+            LEM-CNRS, University of Lille
+          </div>
+
+          <div class="date-location">
+            February–July 2023
+          </div>
+
+          <div class="description">
+            Prevention policies and vaccination behaviors in developing countries.
+            <span class="supervisor">
+              Supervised by Clémentine Garrouste and Yves Arrighi.
+            </span>
+          </div>
+        </li>
+
+
+        <li class="cv-entry">
+          <span class="position-title">
+            Research Thesis
+          </span>
+
+          <div class="institution">
+            University of Lille
+          </div>
+
+          <div class="date-location">
+            April–July 2022
+          </div>
+
+          <div class="description">
+            Statistical analysis of socioeconomic and geographical determinants
+            of voluntary non-take-up of HIV/AIDS testing in sub-Saharan Africa.
+            <span class="supervisor">
+              Supervised by Yves Arrighi.
+            </span>
+          </div>
+        </li>
+
+      </ul>
+
+    </section>
+
   </main>
 
+
   <footer>
-    <p>&copy; 2024 Tadandjoa Kolani. All rights reserved.</p>
+    <p>&copy; 2024–2026 Tadandjoa Kolani. All rights reserved.</p>
   </footer>
 
 </body>
