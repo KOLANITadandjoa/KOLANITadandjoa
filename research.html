@@ -1,114 +1,210 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tadandjoa Kolani - Research</title>
-  <meta name="description" content="Research profile of Tadandjoa Kolani, PhD Researcher in Health Econometrics.">
-  
+
+  <title>Tadandjoa Kolani | Research</title>
+
+  <meta
+    name="description"
+    content="Research profile of Tadandjoa Kolani, PhD Researcher in Health Econometrics at the University of Poitiers."
+  >
+
   <style>
+
+    /* =====================================================
+       GENERAL
+    ===================================================== */
+
+    * {
+      box-sizing: border-box;
+    }
+
     body {
-      font-family: 'Arial', sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f4f4f4;
-      color: #333;
-      line-height: 1.6;
-      padding-bottom: 50px;
+      background-color: #ffffff;
+      color: #222;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      line-height: 1.65;
     }
+
+    a {
+      color: #244a73;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+
+    /* =====================================================
+       HEADER
+    ===================================================== */
 
     header {
-      background-color: #3d5a80;
-      color: #fff;
-      padding: 50px 20px;
+      background-color: #ffffff;
       text-align: center;
-      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-      border-bottom: 2px solid #98c8e8;
+      padding: 55px 20px 35px;
+      border-bottom: 1px solid #d9d9d9;
     }
 
-    h1 {
-      font-size: 3.2em;
-      margin-bottom: 10px;
-      font-weight: bold;
+    header h1 {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 2.8rem;
+      font-weight: 500;
+      color: #1f3552;
+      letter-spacing: 0.2px;
     }
 
-    h2 {
-      font-size: 2.3em;
-      color: #6a8d92;
-      margin-top: 40px;
-      margin-bottom: 15px;
+    header p {
+      margin: 10px 0 0;
+      padding: 0;
+      font-size: 1.05rem;
+      color: #555;
     }
 
-    p {
-      font-size: 1.1em;
-      color: #333;
-      margin: 15px 0;
-    }
 
-    strong {
-      color: #3d5a80;
-    }
+    /* =====================================================
+       NAVIGATION
+    ===================================================== */
 
     nav {
-      background-color: #3d5a80;
-      padding: 18px;
       text-align: center;
+      padding: 16px 20px;
+      background-color: #ffffff;
+      border-bottom: 1px solid #eeeeee;
     }
 
     nav a {
-      margin: 0 15px;
-      color: #fff;
-      font-size: 1.1em;
-      text-decoration: none;
-      padding: 8px 15px;
-      border-radius: 5px;
+      display: inline-block;
+      margin: 0 16px;
+      padding: 2px 0;
+      color: #333;
+      font-size: 0.98rem;
+      font-weight: 500;
     }
 
     nav a:hover {
-      background-color: #98c8e8;
+      color: #244a73;
+      text-decoration: none;
+      border-bottom: 1px solid #244a73;
+    }
+
+    nav a.active {
+      color: #244a73;
+      border-bottom: 1px solid #244a73;
+    }
+
+
+    /* =====================================================
+       MAIN CONTENT
+    ===================================================== */
+
+    main {
+      max-width: 980px;
+      margin: 55px auto 80px;
+      padding: 0 30px;
+    }
+
+    section {
+      margin-bottom: 55px;
+    }
+
+    h2 {
+      margin: 0 0 24px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #d8d8d8;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 1.65rem;
+      font-weight: 500;
+      color: #1f3552;
+    }
+
+
+    /* =====================================================
+       RESEARCH FOCUS
+    ===================================================== */
+
+    .research-focus {
+      max-width: 900px;
+      font-size: 1.05rem;
       color: #333;
     }
 
-    main {
-      max-width: 1200px;
-      margin: 40px auto;
-      padding: 35px;
-      background-color: #fff;
-      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
-      border-radius: 8px;
-      text-align: left;
+    .research-focus strong {
+      color: #1f3552;
+      font-weight: 600;
     }
 
-    ul {
-      list-style-type: none;
+
+    /* =====================================================
+       PUBLICATIONS / PAPERS
+    ===================================================== */
+
+    .paper-list {
+      list-style: none;
+      margin: 0;
       padding: 0;
-      font-size: 1.1em;
     }
 
-    ul li {
-      margin: 18px 0;
-      padding-left: 22px;
-      position: relative;
+    .paper {
+      padding: 0 0 28px;
+      margin-bottom: 28px;
+      border-bottom: 1px solid #eeeeee;
     }
 
-    ul li::before {
-      content: '–';
-      position: absolute;
-      left: 0;
-      color: #3d5a80;
-      font-weight: bold;
+    .paper:last-child {
+      border-bottom: none;
     }
+
+    .paper-title {
+      display: block;
+      margin-bottom: 5px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 1.08rem;
+      line-height: 1.45;
+      font-weight: 600;
+      color: #1f3552;
+    }
+
+    .paper-title a {
+      color: #1f3552;
+    }
+
+    .paper-authors {
+      margin-top: 3px;
+      font-size: 0.96rem;
+      color: #555;
+    }
+
+    .paper-status {
+      margin-top: 3px;
+      font-size: 0.94rem;
+      font-style: italic;
+      color: #666;
+    }
+
+
+    /* =====================================================
+       ABSTRACT
+    ===================================================== */
 
     details {
-      margin-top: 8px;
+      margin-top: 9px;
     }
 
     summary {
+      width: fit-content;
       cursor: pointer;
+      color: #244a73;
+      font-size: 0.92rem;
       font-weight: 600;
-      color: #3d5a80;
-      margin-top: 6px;
     }
 
     summary:hover {
@@ -116,162 +212,393 @@
     }
 
     .abstract {
-      font-size: 0.95em;
-      font-style: italic;
+      max-width: 850px;
+      margin: 13px 0 0 0;
+      padding: 0 0 0 16px;
+      border-left: 2px solid #d9dfe6;
       color: #444;
-      margin-top: 10px;
-      margin-left: 25px;
-      line-height: 1.5;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 0.95rem;
+      line-height: 1.65;
+      font-style: normal;
     }
 
-    .paper-status {
-      font-style: italic;
-      color: #555;
-    }
+
+    /* =====================================================
+       FOOTER
+    ===================================================== */
 
     footer {
-      background-color: #3d5a80;
-      color: #fff;
-      padding: 20px;
+      border-top: 1px solid #dddddd;
+      background-color: #ffffff;
       text-align: center;
-      width: 100%;
+      padding: 25px 20px 35px;
+      color: #777;
     }
+
+    footer p {
+      margin: 0;
+      font-size: 0.88rem;
+    }
+
+
+    /* =====================================================
+       RESPONSIVE
+    ===================================================== */
+
+    @media (max-width: 700px) {
+
+      header {
+        padding: 40px 20px 28px;
+      }
+
+      header h1 {
+        font-size: 2.2rem;
+      }
+
+      nav {
+        padding: 13px 10px;
+      }
+
+      nav a {
+        margin: 5px 9px;
+        font-size: 0.92rem;
+      }
+
+      main {
+        margin-top: 38px;
+        padding: 0 22px;
+      }
+
+      h2 {
+        font-size: 1.45rem;
+      }
+
+      .paper-title {
+        font-size: 1.03rem;
+      }
+
+      .abstract {
+        padding-left: 12px;
+      }
+    }
+
   </style>
 </head>
 
+
 <body>
 
-<header>
-  <h1>Research</h1>
-  <p>PhD Researcher in Health Econometrics</p>
-</header>
+  <!-- ===================================================
+       HEADER
+  ==================================================== -->
 
-<nav>
-  <a href="index.html">Home</a>
-  <a href="cv.html">CV</a>
-  <a href="research.html">Research</a>
-  <a href="contact.html">Contact</a>
-</nav>
+  <header>
+    <h1>Tadandjoa Kolani</h1>
+    <p>PhD Researcher in Health Econometrics</p>
+  </header>
 
-<main>
 
-  <h2>Research Focus</h2>
-  <p style="font-size:1.15em; font-weight:600;">
-    My research focuses on <strong>structural econometrics</strong>, 
-    <strong>causal inference (point and partial identification)</strong>, 
-    <strong>robust inference</strong>, and 
-    <strong>applied microeconometrics</strong>, with applications in 
-    <strong>health, population, and development economics</strong>. 
-    I am particularly interested in <strong>policy evaluation</strong> and
-    the theoretical foundations of econometric identification.
-  </p>
+  <!-- ===================================================
+       NAVIGATION
+  ==================================================== -->
 
-  <h2>Published Articles</h2>
-  <ul>
-    <li>
-      <strong>
-        <a href="https://www.sciencedirect.com/science/article/abs/pii/S1570677X26000389" target="_blank">
-          Heterogeneous Returns to Antenatal Care: Evidence from Childhood Immunization in Senegal
-        </a>
-      </strong>
-      <br>
-      <span class="paper-status">Economics & Human Biology, 2026.</span>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="cv.html">CV</a>
+    <a href="research.html" class="active">Research</a>
+    <a href="contact.html">Contact</a>
+  </nav>
 
-      <details>
-        <summary>Abstract</summary>
-        <p class="abstract">
-          Antenatal care (ANC) serves both as a medical input and as a source of health information in the child health production function. 
-          We use seven waves of the Senegal Demographic and Health Surveys, matched to regional health-facility data, to estimate the effect of ANC adherence
-          on childhood vaccination outcomes. We address endogeneity arising from unobserved heterogeneity in ANC utilization using 
-          a two-stage copula-based control-function approach. We find that ANC adherence has no effect on the composite measure of full immunization, 
-          but significantly increases uptake of two injectable vaccines, the three-dose diphtheria-pertussis-tetanus vaccine (DTP3) and measles, 
-          by 8.2 % and 6.3 % points, respectively. These effects are concentrated among mothers with no schooling or only primary education. 
-          We also find no robust evidence that the marginal returns to ANC adherence differ by child sex, fertility intention, or ethnicity.
-        </p>
-      </details>
-    </li>
-  </ul>
 
-  <h2>Working Papers</h2>
-  <ul>
-    <li>
-      <strong>Help Me! If You Help Him, Are You Really Helping Him?</strong>
-      (with Liliane Bonnal and Pascal Favard)
-      <br>
-      <span class="paper-status">Draft available soon.</span>
-    </li>
+  <!-- ===================================================
+       MAIN
+  ==================================================== -->
 
-    <li>
-  <strong>
-    Estimating Informal Care Effects beyond Instrumental Variables: Evidence from Long-Term Care in Europe
-  </strong>
-  (with Liliane Bonnal and Pascal Favard)
-  <br>
-  <span class="paper-status">Submitted.</span>
-  <details>
-    <summary>Abstract</summary>
-    <p class="abstract">
-      Informal care (IC) is central to long-term care (LTC) systems, yet estimating its effects remains difficult because care arrangements 
-      are endogenous. This paper examines whether a copula-based control function approach can estimate IC effects without strong instruments 
-      while reducing the risk of overstated effects from instrumental-variable (IV) strategies. We study IC and LTC outcomes among older adults 
-      living alone in Europe, where commonly used child-based instruments are intuitive but not consistently relevant across care types, gender, 
-      or institutional contexts. Using SHARE Wave 9 data on non-institutionalized individuals aged 65 and over in 25 European countries, we 
-      implement a two-stage copula-based control function estimator (2sCOPE), which does not require excluded instruments, and benchmark it 
-      against two-stage residual inclusion IV estimates. Informal domestic care reduces formal care use by 19.5 percentage points, while informal 
-      personal care reduces formal personal care use by 5.8 percentage points. By contrast, IV estimates imply an effect on formal domestic care 
-      nearly twice as large, while instruments for informal personal care are too weak to support reliable IV estimation. IC also lowers depressive 
-      symptoms and loneliness, with heterogeneity by gender and European region. Overall, 2sCOPE helps refine estimates of IC effects when IV 
-      strategies are limited. Our results suggest that, under fiscal pressure from population ageing, policies promoting ageing in place should 
-      target the groups and contexts in which IC reduces FC use or improves mental well-being, thereby enhancing LTC system efficiency.
-    </p>
-  </details>
-</li>
-    <li>
-      <strong>Family Size, Compliance Costs, and Childhood Vaccination</strong>
-     (with Cornel Oros)
-  <br>
-  <span class="paper-status">Submitted.</span>
-  <details>
-    <summary>Abstract</summary>
-    <p class="abstract">
-          Childhood vaccination is a high-return early-life human capital investment whose monetary price is close to zero in many developing countries. Yet many households fail
-          to complete the vaccination schedule. We argue that family size raises the shadow cost of completion and develop a framework in which additional children make
-          schedule compliance more difficult. Using household data from Senegal and twinning among older siblings as a source of plausibly exogenous variation in family size, we
-          estimate that one additional surviving older sibling reduces the probability of full vaccination by about 10.5 percentage points. The effect is zero for vaccines
-          administered at birth, but negative for vaccines requiring repeated visits or later returns, consistent with a compliance-cost mechanism. Effects are larger where
-          completion costs are more likely to bind, including among children of mothers with no formal education and those living in rural areas. Our findings show that family size can
-          constrain early-life human capital accumulation even when the investment is financially accessible. Policies aimed at improving vaccination coverage should therefore not only
-          expand access to vaccines, but also reduce the compliance costs that make completing the vaccination schedule more difficult for large families.
-        </p>
-      </details>
-    </li>
-  <li> <strong>When More Children Hurt or Help: Family Size, Household Decision-Making, and Childhood Vaccination</strong> 
-    (with Liliane Bonnal, Pascal Favard and Cornel Oros) <br> <span class="paper-status">Active working paper.</span> </li>
-    <details>
-        <summary>Abstract</summary>
-        <p class="abstract">
-    
-        </p>
-      </details>
-    </li>
-  </ul>
+  <main>
 
-  <h2>Work in Progress</h2>
-  <ul>
-    <li>
-      <strong>Not All Non-Use Is the Same: Contraceptive Intentions and Early-Life Health Investments</strong>
-    </li>
-    <li> 
-      <strong>Identification in Recursive Multivariate Probit Models: Do Exclusion Restrictions Really Matter?</strong>
-    </li>
-  </ul>
 
-</main>
+    <!-- Research Focus -->
 
-<footer>
-  <p>&copy; 2024 Tadandjoa Kolani. All rights reserved.</p>
-</footer>
+    <section>
+
+      <h2>Research Focus</h2>
+
+      <p class="research-focus">
+        My research focuses on <strong>structural econometrics</strong>,
+        <strong>causal inference (point and partial identification)</strong>,
+        <strong>robust inference</strong>, and
+        <strong>applied microeconometrics</strong>, with applications in
+        <strong>health, population, and development economics</strong>.
+        I am particularly interested in <strong>policy evaluation</strong>
+        and the theoretical foundations of econometric identification.
+      </p>
+
+    </section>
+
+
+    <!-- Publications -->
+
+    <section>
+
+      <h2>Publications</h2>
+
+      <ul class="paper-list">
+
+        <li class="paper">
+
+          <span class="paper-title">
+            <a
+              href="https://www.sciencedirect.com/science/article/abs/pii/S1570677X26000389"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Heterogeneous Returns to Antenatal Care:
+              Evidence from Childhood Immunization in Senegal
+            </a>
+          </span>
+
+          <div class="paper-status">
+            Economics &amp; Human Biology, 2026.
+          </div>
+
+          <details>
+
+            <summary>Abstract</summary>
+
+            <p class="abstract">
+              Antenatal care (ANC) serves both as a medical input and as a source
+              of health information in the child health production function.
+              We use seven waves of the Senegal Demographic and Health Surveys,
+              matched to regional health-facility data, to estimate the effect
+              of ANC adherence on childhood vaccination outcomes. We address
+              endogeneity arising from unobserved heterogeneity in ANC utilization
+              using a two-stage copula-based control-function approach.
+              We find that ANC adherence has no effect on the composite measure
+              of full immunization, but significantly increases uptake of two
+              injectable vaccines, the three-dose diphtheria-pertussis-tetanus
+              vaccine (DTP3) and measles, by 8.2 and 6.3 percentage points,
+              respectively. These effects are concentrated among mothers with
+              no schooling or only primary education. We also find no robust
+              evidence that the marginal returns to ANC adherence differ by
+              child sex, fertility intention, or ethnicity.
+            </p>
+
+          </details>
+
+        </li>
+
+      </ul>
+
+    </section>
+
+
+    <!-- Working Papers -->
+
+    <section>
+
+      <h2>Working Papers</h2>
+
+      <ul class="paper-list">
+
+
+        <!-- Informal Care Paper -->
+
+        <li class="paper">
+
+          <span class="paper-title">
+            Estimating Informal Care Effects beyond Instrumental Variables:
+            Evidence from Long-Term Care in Europe
+          </span>
+
+          <div class="paper-authors">
+            with Liliane Bonnal and Pascal Favard
+          </div>
+
+          <div class="paper-status">
+            Submitted.
+          </div>
+
+          <details>
+
+            <summary>Abstract</summary>
+
+            <p class="abstract">
+              Informal care (IC) is central to long-term care (LTC) systems,
+              yet estimating its effects remains difficult because care arrangements
+              are endogenous. This paper examines whether a copula-based control
+              function approach can estimate IC effects without strong instruments
+              while reducing the risk of overstated effects from instrumental-variable
+              (IV) strategies. We study IC and LTC outcomes among older adults living
+              alone in Europe, where commonly used child-based instruments are intuitive
+              but not consistently relevant across care types, gender, or institutional
+              contexts. Using SHARE Wave 9 data on non-institutionalized individuals
+              aged 65 and over in 25 European countries, we implement a two-stage
+              copula-based control function estimator (2sCOPE), which does not require
+              excluded instruments, and benchmark it against two-stage residual
+              inclusion IV estimates. Informal domestic care reduces formal care use
+              by 19.5 percentage points, while informal personal care reduces formal
+              personal care use by 5.8 percentage points. By contrast, IV estimates
+              imply an effect on formal domestic care nearly twice as large, while
+              instruments for informal personal care are too weak to support reliable
+              IV estimation. IC also lowers depressive symptoms and loneliness,
+              with heterogeneity by gender and European region. Overall, 2sCOPE helps
+              refine estimates of IC effects when IV strategies are limited.
+              Our results suggest that, under fiscal pressure from population ageing,
+              policies promoting ageing in place should target the groups and contexts
+              in which IC reduces formal care use or improves mental well-being,
+              thereby enhancing LTC system efficiency.
+            </p>
+
+          </details>
+
+        </li>
+
+
+        <!-- Family Size Senegal -->
+
+        <li class="paper">
+
+          <span class="paper-title">
+            Family Size, Compliance Costs, and Childhood Vaccination
+          </span>
+
+          <div class="paper-authors">
+            with Cornel Oros
+          </div>
+
+          <div class="paper-status">
+            Submitted.
+          </div>
+
+          <details>
+
+            <summary>Abstract</summary>
+
+            <p class="abstract">
+              Childhood vaccination is a high-return early-life human capital
+              investment whose monetary price is close to zero in many developing
+              countries. Yet many households fail to complete the vaccination
+              schedule. We argue that family size raises the shadow cost of completion
+              and develop a framework in which additional children make schedule
+              compliance more difficult. Using household data from Senegal and
+              twinning among older siblings as a source of plausibly exogenous
+              variation in family size, we estimate that one additional surviving
+              older sibling reduces the probability of full vaccination by about
+              10.5 percentage points. The effect is zero for vaccines administered
+              at birth, but negative for vaccines requiring repeated visits or later
+              returns, consistent with a compliance-cost mechanism. Effects are larger
+              where completion costs are more likely to bind, including among children
+              of mothers with no formal education and those living in rural areas.
+              Our findings show that family size can constrain early-life human capital
+              accumulation even when the investment is financially accessible.
+              Policies aimed at improving vaccination coverage should therefore not
+              only expand access to vaccines, but also reduce the compliance costs
+              that make completing the vaccination schedule more difficult for
+              large families.
+            </p>
+
+          </details>
+
+        </li>
+
+
+        <!-- Nigeria-Senegal Family Size -->
+
+        <li class="paper">
+
+          <span class="paper-title">
+            When More Children Hurt or Help:
+            Family Size, Household Decision-Making, and Childhood Vaccination
+          </span>
+
+          <div class="paper-authors">
+            with Liliane Bonnal, Pascal Favard, and Cornel Oros
+          </div>
+
+          <div class="paper-status">
+            Active working paper.
+          </div>
+
+          <details>
+
+            <summary>Abstract</summary>
+
+            <p class="abstract">
+              Abstract forthcoming.
+            </p>
+
+          </details>
+
+        </li>
+
+
+        <!-- Help Me -->
+
+        <li class="paper">
+
+          <span class="paper-title">
+            Help Me! If You Help Him, Are You Really Helping Him?
+          </span>
+
+          <div class="paper-authors">
+            with Liliane Bonnal and Pascal Favard
+          </div>
+
+          <div class="paper-status">
+            Draft available soon.
+          </div>
+
+        </li>
+
+      </ul>
+
+    </section>
+
+
+    <!-- Work in Progress -->
+
+    <section>
+
+      <h2>Work in Progress</h2>
+
+      <ul class="paper-list">
+
+        <li class="paper">
+
+          <span class="paper-title">
+            Not All Non-Use Is the Same:
+            Contraceptive Intentions and Early-Life Health Investments
+          </span>
+
+        </li>
+
+
+        <li class="paper">
+
+          <span class="paper-title">
+            Identification in Recursive Multivariate Probit Models:
+            Do Exclusion Restrictions Really Matter?
+          </span>
+
+        </li>
+
+      </ul>
+
+    </section>
+
+
+  </main>
+
+
+  <!-- ===================================================
+       FOOTER
+  ==================================================== -->
+
+  <footer>
+    <p>&copy; 2024–2026 Tadandjoa Kolani. All rights reserved.</p>
+  </footer>
 
 </body>
+
 </html>
-```
