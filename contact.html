@@ -3,96 +3,274 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tadandjoa Kolani - Contact</title>
-  <meta name="description" content="Contact page for Tadandjoa Kolani, PhD Researcher in Health Econometrics.">
+
+  <title>Tadandjoa Kolani | Contact</title>
+
+  <meta
+    name="description"
+    content="Contact information for Tadandjoa Kolani, PhD Researcher in Health Econometrics at the University of Poitiers."
+  >
+
   <style>
+
+    /* =====================================================
+       GENERAL
+    ===================================================== */
+
+    * {
+      box-sizing: border-box;
+    }
+
     body {
-      font-family: 'Arial', sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f9f9f9;
-      color: #333;
-      text-align: center;
+      background-color: #ffffff;
+      color: #222;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      line-height: 1.65;
     }
+
+    a {
+      color: #244a73;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+
+    /* =====================================================
+       HEADER
+    ===================================================== */
+
     header {
-      background-color: #2d3e50;
-      color: white;
-      padding: 40px;
+      background-color: #ffffff;
       text-align: center;
+      padding: 55px 20px 35px;
+      border-bottom: 1px solid #d9d9d9;
     }
-    h1 {
-      font-size: 3em;
-      margin-bottom: 10px;
+
+    header h1 {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 2.8rem;
+      font-weight: 500;
+      color: #1f3552;
+      letter-spacing: 0.2px;
     }
-    h2 {
-      font-size: 2em;
-      color: #3c9d9b;
-    }
-    p {
-      font-size: 1.2em;
-      margin: 20px;
+
+    header p {
+      margin: 10px 0 0;
+      font-size: 1.05rem;
       color: #555;
     }
-    a {
-      text-decoration: none;
-      color: #ffffff;
-      background-color: #3c9d9b;
-      padding: 10px 20px;
-      border-radius: 5px;
-      font-weight: bold;
-    }
-    a:hover {
-      background-color: #2a7271;
-    }
+
+
+    /* =====================================================
+       NAVIGATION
+    ===================================================== */
+
     nav {
-      background-color: #3c9d9b;
-      padding: 10px;
       text-align: center;
+      padding: 16px 20px;
+      background-color: #ffffff;
+      border-bottom: 1px solid #eeeeee;
     }
+
     nav a {
-      margin: 15px;
-      color: white;
-      font-size: 1.2em;
-      text-decoration: none;
+      display: inline-block;
+      margin: 0 16px;
+      padding: 2px 0;
+      color: #333;
+      font-size: 0.98rem;
+      font-weight: 500;
     }
+
     nav a:hover {
-      color: #f4f4f9;
+      color: #244a73;
+      text-decoration: none;
+      border-bottom: 1px solid #244a73;
     }
+
+    nav a.active {
+      color: #244a73;
+      border-bottom: 1px solid #244a73;
+    }
+
+
+    /* =====================================================
+       MAIN
+    ===================================================== */
+
+    main {
+      max-width: 850px;
+      margin: 60px auto 90px;
+      padding: 0 30px;
+    }
+
+    h2 {
+      margin: 0 0 24px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #d8d8d8;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 1.65rem;
+      font-weight: 500;
+      color: #1f3552;
+    }
+
+    .intro {
+      margin-bottom: 35px;
+      color: #444;
+      font-size: 1.03rem;
+    }
+
+
+    /* =====================================================
+       CONTACT DETAILS
+    ===================================================== */
+
+    .contact-item {
+      margin-bottom: 28px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid #eeeeee;
+    }
+
+    .contact-item:last-child {
+      border-bottom: none;
+    }
+
+    .contact-label {
+      display: block;
+      margin-bottom: 5px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 1.03rem;
+      font-weight: 600;
+      color: #1f3552;
+    }
+
+    .contact-value {
+      color: #444;
+      font-size: 0.98rem;
+      line-height: 1.65;
+    }
+
+
+    /* =====================================================
+       FOOTER
+    ===================================================== */
+
     footer {
-      background-color: #2d3e50;
-      color: white;
-      padding: 15px;
-      position: fixed;
-      width: 100%;
-      bottom: 0;
+      border-top: 1px solid #dddddd;
+      background-color: #ffffff;
       text-align: center;
+      padding: 25px 20px 35px;
+      color: #777;
     }
+
+    footer p {
+      margin: 0;
+      font-size: 0.88rem;
+    }
+
+
+    /* =====================================================
+       RESPONSIVE
+    ===================================================== */
+
+    @media (max-width: 700px) {
+
+      header {
+        padding: 40px 20px 28px;
+      }
+
+      header h1 {
+        font-size: 2.2rem;
+      }
+
+      nav {
+        padding: 13px 10px;
+      }
+
+      nav a {
+        margin: 5px 9px;
+        font-size: 0.92rem;
+      }
+
+      main {
+        margin-top: 40px;
+        padding: 0 22px;
+      }
+
+      h2 {
+        font-size: 1.45rem;
+      }
+
+    }
+
   </style>
 </head>
+
 <body>
 
   <header>
-    <h1>Contact - Tadandjoa Kolani</h1>
+    <h1>Tadandjoa Kolani</h1>
+    <p>PhD Researcher in Health Econometrics</p>
   </header>
 
   <nav>
     <a href="index.html">Home</a>
     <a href="cv.html">CV</a>
     <a href="research.html">Research</a>
-    <a href="contact.html">Contact</a>
+    <a href="contact.html" class="active">Contact</a>
   </nav>
 
   <main>
-    <h2>Get in Touch</h2>
-    <p>If you have any questions or would like to collaborate, feel free to reach out:</p>
-    <p>Email: <a href="mailto:tadandjoa.kolani@example.com">tadandjoa.kolani@univ-poitiers.fr</a></p>
-    <p>Address: Université de Poitiers, CRIEF, 2 rue Jean Carbonnier | bât. A1 | TSA 81100 | 86073 Poitiers cedex 9 | FRANCE</p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/tadandjoa-kolani" target="_blank">Tadandjoa Kolani</a></p>
-    <p>I'm open to discussions, collaborations, or any questions you might have! Let's connect and make a difference together.</p>
+
+    <h2>Contact</h2>
+
+    <p class="intro">
+      If you would like to discuss research, collaboration opportunities,
+      or related academic topics, please feel free to get in touch.
+    </p>
+
+    <div class="contact-item">
+      <span class="contact-label">Email</span>
+      <div class="contact-value">
+        <a href="mailto:tadandjoa.kolani@univ-poitiers.fr">
+          tadandjoa.kolani@univ-poitiers.fr
+        </a>
+      </div>
+    </div>
+
+    <div class="contact-item">
+      <span class="contact-label">Affiliation</span>
+      <div class="contact-value">
+        Université de Poitiers<br>
+        CRIEF<br>
+        2 rue Jean Carbonnier · Bât. A1 · TSA 81100<br>
+        86073 Poitiers Cedex 9 · France
+      </div>
+    </div>
+
+    <div class="contact-item">
+      <span class="contact-label">LinkedIn</span>
+      <div class="contact-value">
+        <a
+          href="https://www.linkedin.com/in/tadandjoa-kolani"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Tadandjoa Kolani
+        </a>
+      </div>
+    </div>
+
   </main>
 
   <footer>
-    <p>&copy; 2024 Tadandjoa Kolani. All rights reserved.</p>
+    <p>&copy; 2024–2026 Tadandjoa Kolani. All rights reserved.</p>
   </footer>
 
 </body>
