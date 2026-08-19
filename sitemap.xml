@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- Page d'accueil -->  
+  <!-- Home -->
   <url>
     <loc>https://kolanitadandjoa.github.io/KOLANITadandjoa/</loc>
-    <lastmod>2024-12-25</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- Page de recherche ou travaux --> 
+  <!-- Research -->
   <url>
     <loc>https://kolanitadandjoa.github.io/KOLANITadandjoa/research.html</loc>
-    <lastmod>2024-12-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
 
-  <!-- Page de CV ou profil professionnel -->
+  <!-- Curriculum Vitae -->
   <url>
     <loc>https://kolanitadandjoa.github.io/KOLANITadandjoa/cv.html</loc>
-    <lastmod>2024-12-25</lastmod>
+    <lastmod>2026-08-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <!-- Page de contact -->
+  <!-- Contact -->
   <url>
     <loc>https://kolanitadandjoa.github.io/KOLANITadandjoa/contact.html</loc>
-    <lastmod>2024-12-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
   </url>
 
 </urlset>
